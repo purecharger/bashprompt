@@ -144,12 +144,3 @@ git-svn-outgoing() {
 
 #export JAVA_HOME=/usr/lib/jvm/java-6-sun
 
-alias ssh-apsdb='ssh rnideffer@apsdb.rs.awarepoint.com'
-alias ssh-apsdb2='ssh rnideffer@apsdb2.rs.awarepoint.com'
-
-alias ssh-app1='ssh rnideffer@app1.rs.awarepoint.com'
-alias ssh-app2='ssh rnideffer@app2.rs.awarepoint.com'
-alias ssh-app3='ssh rnideffer@app3.rs.awarepoint.com'
-alias ssh-app5='ssh rnideffer@app5.rs.awarepoint.com'
-
-alias ssh-amzdr='ssh rnideffer@aws-dr.aws.awarepoint.com'
