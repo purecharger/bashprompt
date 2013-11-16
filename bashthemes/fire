@@ -1,0 +1,19 @@
+# Inspired by Raster (Carsten Haitzler of Red Hat Advanced Development Labs)
+# Created by BadlandZ
+# Changed by Spidey 08/06
+function fire {
+local GRAD1='\[\333\262\261\260\]'
+local GRAD2='\[\260\261\262\333\]'
+local COLOR1='\[\033[01;33;43m\]'
+local COLOR2='\[\033[01;37;43m\]'
+local COLOR3='\[\033[00;31;43m\]'
+local COLOR4='\[\033[00;31;40m\]'
+local COLOR5='\[\033[01;33;40m\]'
+local COLOR6='\[\033[01;37;40m\]'
+local GRAD0='\[\033[00m\]'
+
+PS1=$COLOR1$GRAD1$COLOR2'\u@\h'$COLOR3$GRAD2$COLOR4$GRAD1\
+$COLOR6' \d \$(date +%I:%M:%S%P) '$NONE'\n'$COLOR5'\w/'$GRAD0' '
+
+PS2=$COLOR1$GRAD1$COLOR3$GRAD2$COLOR4$GRAD1$COLOR5'>'$GRAD0' '
+}

@@ -1,0 +1,5 @@
+# Very simple prompt
+function off { 
+PS1="\$ "
+PS2="> "
+      }

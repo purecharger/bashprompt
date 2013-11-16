@@ -1,0 +1,12 @@
+# Blue
+# Created by BadlandZ in v.0.4b
+# Adapted by jf
+# Changed By Spidey 08/06 Adding Ending brackets \]
+#
+function blue {
+PS1="\[\033[34;44;1m\]\333\262\261\260\[\033[37;44;1m\]\u@\h\[\033[0m\]\
+\[\033[34;40m\]\333\262\261\260\[\033[37;40;1m\] \
+\d \$(date +%I:%M:%S%P) \n\[\033[34;40;1m\]\w/\[\033[0m\] "
+
+PS2="\[\033[34;40m\]\333\262\261\260\[\033[0m\]>"
+}

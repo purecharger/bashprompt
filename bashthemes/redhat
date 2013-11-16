@@ -1,0 +1,8 @@
+# Red Hat Default Prompt
+# Styled like the default prompt in Red Hat 5.1
+# an farmiliar alternitive for those who get freaked out by "off"
+#
+function redhat {
+PS1="[\u@\h \W]\\$ "
+PS2="> "
+}

@@ -1,0 +1,7 @@
+callbashprompt () 
+{ 
+    local themedir=~/.bashprompt/bashthemes;
+    source $themedir/$1 && $1
+    unset $1
+}
+

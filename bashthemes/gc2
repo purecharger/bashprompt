@@ -1,0 +1,11 @@
+# Created by icetrey <trey@imagin.net>
+# Added by Spidey 08/06
+function gc {
+local GRAD1=`tty|cut -d/ -f3`
+local COLOR1="\[\033[0;36m\]"
+local COLOR2="\[\033[1;36m\]"
+local COLOR3="\[\033[1;30m\]"
+local COLOR4="\[\033[0m\]"
+PS1="$COLOR3Ú$COLOR1Ä$COLOR2($COLOR1\u$COLOR3@$COLOR1gc$COLOR2)$COLOR1Ä$COLOR2($COLOR1\$(date +%I:%M%P)$COLOR3:$COLOR1\$(date +%m/%d/%y)$COLOR2)$COLOR1Ä$COLOR3-$COLOR4\n$COLOR3À$COLOR1Ä$COLOR2($COLOR1\$$COLOR3:$COLOR1\w$COLOR2)$COLOR1Ä$COLOR3-$COLOR4 " 
+PS2="$COLOR2Ä$COLOR1Ä$COLOR3-$COLOR4 "
+}

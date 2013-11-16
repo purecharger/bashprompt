@@ -1,0 +1,8 @@
+# SuSE Default Prompt
+# Styled like the default prompt in SuSE 5.2
+# an farmiliar alternitive for those who get freaked out by "off"
+#
+function suse {
+PS1="\u@\h:\w/ > "
+PS2="> "
+}
